@@ -3,7 +3,7 @@ This repository contains code and resources for conducting analysis of an online
 
 ## Project Overview
 
-This repository contains code and resources for conducting analysis of an online store data. The purpose of this project is to explore, analyze, and derive insights from a dataset related to online store orders. The analysis encompasses various aspects &amp; factors influencing various orders.
+**Online store wants to create an annual sales report for 2022. So that, owners can understand their customers and grow more sales in 2023**
 
 ![Dashboard](online_store_report_sc.png)
 
@@ -50,14 +50,12 @@ Online Store Data: The primary dataset used for this analysis is the "online_sto
 - (Marked Yellow) Created month column for generalizing order details on basis of month
 
 ### ANALYSE
-
 - Sorted & filtered data
 - Created pivot table & charts according to the needs of stakeholders
 - Added slider in pivot table charts for checking data according to KPI's
 - Provide full report with dynamic charts in (Report Store 2022)
 
 ### SHARE
-
 - March got the highest amount of orders
 - Women are more likely to buy compared to men (~65%)
 - Maharashtra, Karnataka & Uttar Pradesh are the top 3 states (~35%)
@@ -65,5 +63,4 @@ Online Store Data: The primary dataset used for this analysis is the "online_sto
 - Amazon, Flipkart and Myntra channels are max contributing
 
 ### ACT
-
 Target women customers of age group (30-49 yrs) living in Maharashtra, Karnataka & Uttar Pradesh by showing ads/offers/coupons available on Amazon, Flipkart & Myntra
