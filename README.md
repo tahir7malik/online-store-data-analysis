@@ -5,7 +5,7 @@ This repository contains code and resources for conducting analysis of an online
 
 This repository contains code and resources for conducting analysis of an online store data. The purpose of this project is to explore, analyze, and derive insights from a dataset related to online store orders. The analysis encompasses various aspects &amp; factors influencing various orders.
 
-![Dashboard](online_store_report_screenshot.png)
+![Dashboard](online_store_report_sc.png)
 
 ###  Data Sources
 
@@ -21,12 +21,12 @@ Online Store Data: The primary dataset used for this analysis is the "online_sto
 - Microsoft Excel: Data cleaning, data processing, data analysis & visualization
 
 ## Approach for Data Analysis
-1. Ask: ask questions & define problem
-2. Prepare: prepare data by collecting & storing information
-3. Process: process data by cleaning & checking information
-4. Analyse: analyse data to find patterns & trends
-5. Share: share data with audience
-6. Act: act on data & use analysis results
+1. **Ask**: ask questions & define problem
+2. **Prepare**: prepare data by collecting & storing information
+3. **Process**: process data by cleaning & checking information
+4. **Analyse**: analyse data to find patterns & trends
+5. **Share**: share data with audience
+6. **Act**: act on data & use analysis results
 
 ### ASK
 - Compare the sales and orders using single chart
@@ -43,49 +43,28 @@ Online Store Data: The primary dataset used for this analysis is the "online_sto
 - You can search for different datasets in kaggle
 - Link: https://www.kaggle.com/
 
-### Data Cleaning/Preparation
-
+### PROCESS
 - Cleaned the null values from all the columns of the dataset
 - Replaced redundant data with uniform data
+- (Marked Yellow) Created age group column for segregating adults, teenagers & senior citizens
+- (Marked Yellow) Created month column for generalizing order details on basis of month
+
+### ANALYSE
+
+- Sorted & filtered data
+- Created pivot table & charts according to the needs of stakeholders
+- Added slider in pivot table charts for checking data according to KPI's
+- Provide full report with dynamic charts in (Report Store 2022)
+
+### SHARE
+
+- March got the highest amount of orders
 - 
+- Women are more likely to buy compared to men (~65%)
+- Maharashtra, Karnataka & Uttar Pradesh are the top 3 states (~35%)
+- Adult age group (30-49 yrs) is max contributing (~50%)
+- Amazon, Flipkart and Myntra channels are max contributing
 
-### Exploratory Data Analysis
+### ACT
 
-EDA involved exploring the hotel booking data to answer key questions, such as:
-- What is the overall hotel cancellation trend?
-- Which type of group cancelled most of the hotel bookings?
-- What are the peak cancellations periods?
-- Whether people got the desired room which they opt for or not?
-
-### Data Analysis
-
-Include some interesting code/features worked with
-
-- Checking whether people got the desired room which they opt for or not?:
-```
-=IF([@[reserved_room_type]]=[@[assigned_room_type]],"desired","undesired")
-```
-
-- For finding out type of guest (Couples, Singles or Family):
-```
-=IF(AND(E2=2,F2=0,G2=0),"Couples",IF(AND(E2 = 1, F2 = 0, G2 = 0),"Single","Family"))
-```
-
-### Results/Findings
-
-The analysis results are summarized as follows:
-1. Total bookings: 119391, Total cancellations: 44224
-2. Overall the month of August witnessed the highest number of bookings
-3. City hotel bookings were greater as comparison to resort hotel bookings
-4. Couples booked the most hotels so it is obvious cancellations will also be greater
-5. Most of the customers received their desired rooms according to the reservations
-
-### Recommendations
-
-Based on the analysis, we recommend the following actions:
-- Invest in marketing and promotions during peak holiday seasons to maximize revenue
-- Focus on promoting your accomodations features such as affordability and accessibility so that we can increase the numbers in category of singles and family members
-- Introduce more hotel packages for singles which targets the weekends + fridays or mondays 
-
-### References
-- Kaggle: https://www.kaggle.com/datasets/mojtaba142/hotel-booking
+Target women customers of age group (30-49 yrs) living in Maharashtra, Karnataka & Uttar Pradesh by showing ads/offers/coupons available on Amazon, Flipkart & Myntra
