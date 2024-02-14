@@ -59,7 +59,6 @@ Online Store Data: The primary dataset used for this analysis is the "online_sto
 ### SHARE
 
 - March got the highest amount of orders
-- 
 - Women are more likely to buy compared to men (~65%)
 - Maharashtra, Karnataka & Uttar Pradesh are the top 3 states (~35%)
 - Adult age group (30-49 yrs) is max contributing (~50%)
