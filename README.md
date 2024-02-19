@@ -53,7 +53,7 @@ Online Store Data: The primary dataset used for this analysis is the "online_sto
 - Sorted & filtered data
 - Created pivot table & charts according to the needs of stakeholders
 - Added slider in pivot table charts for checking data according to KPI's
-- Provide full report with dynamic charts in (Report Store 2022)
+- Provided full report with dynamic charts in (Report Store 2022)
 
 ### SHARE
 - March got the highest amount of orders
