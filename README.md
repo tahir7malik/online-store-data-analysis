@@ -41,7 +41,7 @@ Online Store Data: The primary dataset used for this analysis is the "online_sto
 ### PREPARE
 - We received our dataset from kaggle
 - You can search for different datasets in kaggle
-- Link: https://www.kaggle.com/
+- Link: [Kaggle](https://www.kaggle.com/)
 
 ### PROCESS
 - Cleaned the null values from all the columns of the dataset
